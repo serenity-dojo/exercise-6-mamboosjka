@@ -20,6 +20,6 @@ public class Cat extends Pet {
 
     @Override
     public String play() {
-        return "plays with string";
+        return "plays with " + favoriteToy.toLowerCase();
     }
 }
